@@ -1,0 +1,18 @@
+<?php  
+  $time_array=array("8:10~9:00");
+  for($k=0;$k<=2;$k++){
+    $temp_hour_1=9+$k;
+    $temp_hour_2=10+$k;
+    $temp="{$temp_hour_1}:10~{$temp_hour_2}:00";
+    array_push($time_array,$temp);
+  }
+  array_push($time_array,"F");
+  for($k=0;$k<=4;$k++){
+    $temp_hour_1=13+$k;
+    $temp_hour_2=14+$k;
+    $temp="{$temp_hour_1}:20~{$temp_hour_2}:10";
+    array_push($time_array,$temp);
+  }
+  array_push($time_array,"A");
+  array_push($time_array,"B");
+?>
